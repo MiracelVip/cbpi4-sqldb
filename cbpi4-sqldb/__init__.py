@@ -5,6 +5,7 @@ from cbpi.api import *
 from cbpi.api.config import ConfigType
 import aiomysql
 
+# Test for Commit 3
 logger = logging.getLogger(__name__)
 
 class SensorLogTargetSqlDB(CBPiExtension):
